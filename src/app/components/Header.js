@@ -7,7 +7,7 @@ function Header() {
             <div className='everything'>
                 <div id='group-1'>
                     <div className='button-container' id='container-1'>
-                        <button id='contact'>Contact Me</button>
+                        <button id='contact'><Link href='/contact'>Contact Me</Link></button>
                     </div>
                 </div>
                 

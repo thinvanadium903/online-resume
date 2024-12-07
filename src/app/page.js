@@ -1,14 +1,12 @@
 import './styles/General.css'
 import Header from './components/Header';
-import Headshot from './components/Headshot';
-import Textblock from './components/TextBlock';
+import Bio from './components/Bio';
 
 function Home() {
   return (
     <body>
       <Header></Header>
-      <Headshot></Headshot>
-      <Textblock></Textblock>
+      <Bio></Bio>
     </body>
   );
 }
