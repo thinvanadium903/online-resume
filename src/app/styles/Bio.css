@@ -5,6 +5,77 @@
 
 @media (max-width: 1000px) {
     #bio {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    #headshot {
+        justify-self: center;
+        align-self: center;
+    }
+    section p {
+        margin-left: 25px;
+        align-self: center;
+        justify-self: center;
+    }
+    #signature {
+        margin-left: 25px;
+    }
+}
+
+#headshot {
+    width: 500px;
+    height: 500px;
+    aspect-ratio: 1/1;
+    border-radius: 100% 100%;
+    background-image: url('../media/headshot.jpg');
+    background-size: cover;
+    background-position-y: 30%;
+    margin: 50px 50px 0px 50px;
+}
+
+section p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 125%;
+}
+
+@media (prefers-color-scheme: light) {
+    #signature {
+        background-image: url('../media/light-mode-signature.svg');
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #signature {
+        background-image: url('../media/dark-mode-signature.svg');
+    }
+}
+
+#signature {
+    width: 400px;
+    aspect-ratio: 360 /65;
+    background-size: contain;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 20px;
+}
+
+@media (prefers-color-scheme: light) {
+    section p {
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    section p {
+        color: white;
+    } 
 }
