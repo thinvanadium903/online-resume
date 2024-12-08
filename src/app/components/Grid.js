@@ -6,17 +6,17 @@ function Grid() {
         <div className='group-of-four'>
             <div className='group-of-two'>
                 <div className='singular' id='resume'>
-                    <a href='../media/Parker Brademann Resume.pdf' download={'Parker Brademann Resume.pdf'}>Download My Resumé</a>
+                    <a href='https://drive.google.com/file/d/1l2E_mP3rzWOF9Q19oS1zr6lHn6_pjZ93/view?usp=sharing'>See My Resumé</a>
                     <h2>📄</h2>
                 </div>
                 <div className='singular' id='cover-letter'>
-                    <a href='../media/Cover Letter.pdf' download={'Cover Letter.pdf'}>Download A Sample Cover Letter</a>
+                    <a href='https://drive.google.com/file/d/1uAQ5zjlafLGPoscUQe8w2hGDm2e0wFKL/view?usp=sharing'>See A Sample Cover Letter</a>
                     <h2>🪶</h2>
                 </div>
             </div>
             <div className='group-of-two'>
                 <div className='singular' id='transcript'>
-                    <a href='../media/Unofficial Transcript.pdf' download={'Unofficial Transcript.pdf'}>See My Transcript</a>
+                    <a href='https://drive.google.com/file/d/1kvJzbpPq1woLxVEGVZuKtp52gRf5yNjS/view?usp=sharing'>See My Transcript</a>
                     <h2>📝</h2>
                 </div>
                 <div className='singular' id='projects'>
