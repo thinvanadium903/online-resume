@@ -13,10 +13,10 @@ function Header() {
                 
                 <div id='group-2'>
                     <div className='button-container' id='container-2'>
-                        <button id='github'>My GitHub Profile</button>
+                        <button id='github'><Link href='https://github.com/thinvanadium903'>My GitHub Profile</Link></button>
                     </div>
                     <div className='button-container' id='container-3'>
-                        <button id='linkedin'>LinkedIn</button>
+                        <button id='linkedin'><Link href='https://www.linkedin.com/in/parker-brademann80/'>LinkedIn</Link></button>
                     </div>
                 </div>
             </div>
