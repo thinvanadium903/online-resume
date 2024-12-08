@@ -29,8 +29,8 @@ function App() {
                 but they will be updated as I finish them.
                 </p>
             <p className='project-p'>The link to the site is: </p>
-            <a href='https://uga-pet-blog-3deb8.web.app/' className='project-link'>DataGeeks Sports Blog</a>
-            <div id='pet-blog-demo'></div>
+            <a href='https://datageeks-sports-blog.vercel.app/' className='project-link'>DataGeeks Sports Blog</a>
+            <div id='datageeks-demo'></div>
         </body>
         
     )
