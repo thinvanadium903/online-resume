@@ -13,6 +13,14 @@
     #headshot {
         justify-self: center;
         align-self: center;
+        width: 80vw;
+        height: 80vw;
+        aspect-ratio: 1/1;
+        border-radius: 100% 100%;
+        background-image: url('../media/headshot.jpg');
+        background-size: cover;
+        background-position-y: 30%;
+        margin: 50px 50px 0px 50px;
     }
     section p {
         margin-left: 25px;
@@ -24,15 +32,17 @@
     }
 }
 
-#headshot {
-    width: 500px;
-    height: 500px;
-    aspect-ratio: 1/1;
-    border-radius: 100% 100%;
-    background-image: url('../media/headshot.jpg');
-    background-size: cover;
-    background-position-y: 30%;
-    margin: 50px 50px 0px 50px;
+@media (min-width: 1001px) {
+    #headshot {
+        width: 500px;
+        height: 500px;
+        aspect-ratio: 1/1;
+        border-radius: 100% 100%;
+        background-image: url('../media/headshot.jpg');
+        background-size: cover;
+        background-position-y: 30%;
+        margin: 50px 50px 0px 50px;
+    }
 }
 
 section p {

@@ -6,19 +6,22 @@ function Grid() {
         <div className='group-of-four'>
             <div className='group-of-two'>
                 <div className='singular' id='resume'>
-                    <p>Download My Resumé</p>
+                    <a href='../media/Parker Brademann Resume.pdf' download={'Parker Brademann Resume.pdf'}>Download My Resumé</a>
                     <h2>📄</h2>
                 </div>
                 <div className='singular' id='cover-letter'>
-                    <p>Download My Cover Letter</p>
+                    <a href='../media/Cover Letter.pdf' download={'Cover Letter.pdf'}>Download A Sample Cover Letter</a>
+                    <h2>🪶</h2>
                 </div>
             </div>
             <div className='group-of-two'>
                 <div className='singular' id='transcript'>
-                    <p>See My Transcript</p>
+                    <a href='../media/Unofficial Transcript.pdf' download={'Unofficial Transcript.pdf'}>See My Transcript</a>
+                    <h2>📝</h2>
                 </div>
                 <div className='singular' id='projects'>
-                    <p>Read About My Projects</p>
+                    <a href='/projects'>Read About My Projects</a>
+                    <h2>🔨</h2>
                 </div>
             </div>
         </div>
