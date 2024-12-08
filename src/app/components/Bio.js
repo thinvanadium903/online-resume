@@ -6,12 +6,12 @@ function Bio() {
             <div id='headshot'></div>
             <section>
                 <p>
-                    Hello! You've landed on my online portfolio. It contains links to my resumé, 
+                    Hello! Thank you for visiting my online portfolio. It contains links to my resumé, 
                     cover letter, LinkedIn profile, academic transcript, my contact information, 
                     and some samples of my work.
                 </p>
                 <p>
-                    I'm currently a computer science student in my senior year at the University of 
+                    I am currently a computer science student in my senior year at the University of 
                     Georgia. This site was made in December 2024 as my final portfolio project for my Career and 
                     Life Planning Class. Updates will be made in the future as needed.
                 </p>
