@@ -23,14 +23,14 @@ button {
     text-align: center;
 }
 
-a:-webkit-any-link {
-    color: inherit;
-    text-decoration: inherit;
-}
-
 button:hover {
     transform: scale(1.10);
     text-decoration: underline;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 #group-1, #group-2 {
@@ -60,7 +60,7 @@ button:hover {
 
 #contact {
     background-color: #AAFFB1;
-    color: #008C0C;
+    color: #008C0C !important;
     margin-left: 50px;
 }
 

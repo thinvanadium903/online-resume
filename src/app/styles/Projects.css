@@ -1,11 +1,11 @@
 @media (prefers-color-scheme: light) {
-    .project-title, .project-p, .project-subtitle, .project-link {
+    .project-title, .project-p, .project-subtitle {
         color: black;
     }
 }
 
 @media (prefers-color-scheme: dark) {
-    .project-title, .project-p, .project-subtitle, .project-link {
+    .project-title, .project-p, .project-subtitle {
         color: white;
     }
 }
@@ -35,10 +35,6 @@
 }
 
 .project-link {
-    color: #A70000;
-}
-
-a:-webkit-any-link {
     color: #A70000;
     text-decoration: underline;
 }
